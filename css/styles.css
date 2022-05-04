@@ -40,20 +40,17 @@ h6 {
 
 a:link {
   font-size:12pt;
-  color:#733C7A;
   font-weight:500;
 }
 
 a:hover {
   font-size:12pt;
-  color:#733C7A;
   font-weight:500;
   font-style: italic;
 }
 
 a:visited {
   font-size:12pt;
-  color:#733C7A;
   font-weight:500;
   font-style: italic;
 }
@@ -92,23 +89,6 @@ hr {
   top: 0;
   width: 60%;
   margin-left: 30%;
-}
-
-.innercontent {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.innercontent a {
-  background-color: #C29DC7;
-  border-radius: 25px;
-  padding: 5%;
-  margin: 5%;
-  text-align: center;
-}
-
-.innercontent p {
-
 }
 
 .leftside {
@@ -257,4 +237,11 @@ header {
   color: black;
   text-align: center;
   margin-top: 20px;
+}
+
+.boxes {
+  margin-left: 500px;
+}
+.allBox {
+  display: flex;
 }
